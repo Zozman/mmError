@@ -1,0 +1,5 @@
+lib
+bin
+.github
+Dockerfile
+pyvenv.cfg
