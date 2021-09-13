@@ -1,0 +1,161 @@
+Starting mmtest_mindmeld_1 ... done
+Attaching to mmtest_mindmeld_1
+mindmeld_1  | Requirement already satisfied: mindmeld in /usr/local/lib/python3.6/dist-packages (4.3.4)
+mindmeld_1  | Requirement already satisfied: Flask~=1.0 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (1.1.4)
+mindmeld_1  | Requirement already satisfied: mypy>=0.782 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (0.910)
+mindmeld_1  | Requirement already satisfied: pip>=9.0.1 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (21.2.4)
+mindmeld_1  | Requirement already satisfied: click-log==0.1.8 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (0.1.8)
+mindmeld_1  | Requirement already satisfied: spacy~=2.3.1 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (2.3.7)
+mindmeld_1  | Requirement already satisfied: python-crfsuite~=0.9 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (0.9.7)
+mindmeld_1  | Requirement already satisfied: distro~=1.3 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (1.6.0)
+mindmeld_1  | Requirement already satisfied: tqdm~=4.15 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (4.62.2)
+mindmeld_1  | Requirement already satisfied: immutables~=0.9 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (0.16)
+mindmeld_1  | Requirement already satisfied: py~=1.4 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (1.10.0)
+mindmeld_1  | Requirement already satisfied: dataclasses<0.8,>=0.7 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (0.7)
+mindmeld_1  | Requirement already satisfied: scikit-learn<0.20,>=0.18.1 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (0.19.2)
+mindmeld_1  | Requirement already satisfied: pytz in /usr/local/lib/python3.6/dist-packages (from mindmeld) (2021.1)
+mindmeld_1  | Requirement already satisfied: sklearn-crfsuite<1.0,>=0.3.6 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (0.3.6)
+mindmeld_1  | Requirement already satisfied: marshmallow~=3.7.1 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (3.7.1)
+mindmeld_1  | Requirement already satisfied: python-dateutil~=2.6 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (2.8.2)
+mindmeld_1  | Requirement already satisfied: dvc>=1.8.1 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (2.7.2)
+mindmeld_1  | Requirement already satisfied: numpy~=1.15 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (1.19.5)
+mindmeld_1  | Requirement already satisfied: pycountry in /usr/local/lib/python3.6/dist-packages (from mindmeld) (20.7.3)
+mindmeld_1  | Requirement already satisfied: scipy<2.0,>=0.13.3 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (1.5.4)
+mindmeld_1  | Requirement already satisfied: aiohttp>=3.6.2 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (3.7.4.post0)
+mindmeld_1  | Requirement already satisfied: Flask-Cors~=3.0 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (3.0.10)
+mindmeld_1  | Requirement already satisfied: attrs>=18.2 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (21.2.0)
+mindmeld_1  | Requirement already satisfied: future~=0.17 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (0.18.2)
+mindmeld_1  | Requirement already satisfied: nltk~=3.2 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (3.6.2)
+mindmeld_1  | Requirement already satisfied: elasticsearch>=5.0 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (7.14.1)
+mindmeld_1  | Requirement already satisfied: requests<3.0,>=2.20.1 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (2.26.0)
+mindmeld_1  | Requirement already satisfied: pyyaml>=5.1.1 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (5.4.1)
+mindmeld_1  | Requirement already satisfied: Click~=7.1 in /usr/local/lib/python3.6/dist-packages (from mindmeld) (7.1.2)
+mindmeld_1  | Requirement already satisfied: multidict<7.0,>=4.5 in /usr/local/lib/python3.6/dist-packages (from aiohttp>=3.6.2->mindmeld) (5.1.0)
+mindmeld_1  | Requirement already satisfied: idna-ssl>=1.0 in /usr/local/lib/python3.6/dist-packages (from aiohttp>=3.6.2->mindmeld) (1.1.0)
+mindmeld_1  | Requirement already satisfied: typing-extensions>=3.6.5 in /usr/local/lib/python3.6/dist-packages (from aiohttp>=3.6.2->mindmeld) (3.10.0.2)
+mindmeld_1  | Requirement already satisfied: chardet<5.0,>=2.0 in /usr/local/lib/python3.6/dist-packages (from aiohttp>=3.6.2->mindmeld) (4.0.0)
+mindmeld_1  | Requirement already satisfied: async-timeout<4.0,>=3.0 in /usr/local/lib/python3.6/dist-packages (from aiohttp>=3.6.2->mindmeld) (3.0.1)
+mindmeld_1  | Requirement already satisfied: yarl<2.0,>=1.0 in /usr/local/lib/python3.6/dist-packages (from aiohttp>=3.6.2->mindmeld) (1.6.3)
+mindmeld_1  | Requirement already satisfied: ruamel.yaml>=0.17.11 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (0.17.16)
+mindmeld_1  | Requirement already satisfied: appdirs>=1.4.3 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (1.4.4)
+mindmeld_1  | Requirement already satisfied: aiohttp-retry==2.4.5 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (2.4.5)
+mindmeld_1  | Requirement already satisfied: dulwich>=0.20.23 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (0.20.25)
+mindmeld_1  | Requirement already satisfied: ply>=3.9 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (3.11)
+mindmeld_1  | Requirement already satisfied: shtab<2,>=1.3.4 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (1.4.1)
+mindmeld_1  | Requirement already satisfied: psutil>=5.8.0 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (5.8.0)
+mindmeld_1  | Requirement already satisfied: shortuuid>=0.5.0 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (1.0.1)
+mindmeld_1  | Requirement already satisfied: flatten-dict<1,>=0.4.1 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (0.4.2)
+mindmeld_1  | Requirement already satisfied: pyasn1>=0.4.1 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (0.4.8)
+mindmeld_1  | Requirement already satisfied: funcy>=1.14 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (1.16)
+mindmeld_1  | Requirement already satisfied: flufl.lock<4,>=3.2 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (3.2)
+mindmeld_1  | Requirement already satisfied: tabulate>=0.8.7 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (0.8.9)
+mindmeld_1  | Requirement already satisfied: pyparsing==2.4.7 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (2.4.7)
+mindmeld_1  | Requirement already satisfied: fsspec[http]>=2021.8.1 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (2021.8.1)
+mindmeld_1  | Requirement already satisfied: packaging>=19.0 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (21.0)
+mindmeld_1  | Requirement already satisfied: importlib-metadata>=1.4 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (4.8.1)
+mindmeld_1  | Requirement already satisfied: diskcache>=5.2.1 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (5.2.1)
+mindmeld_1  | Requirement already satisfied: networkx>=2.5 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (2.5.1)
+mindmeld_1  | Requirement already satisfied: pydot>=1.2.4 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (1.4.2)
+mindmeld_1  | Requirement already satisfied: rich>=10.0.0 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (10.9.0)
+mindmeld_1  | Requirement already satisfied: configobj>=5.0.6 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (5.0.6)
+mindmeld_1  | Requirement already satisfied: python-benedict>=0.21.1 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (0.24.2)
+mindmeld_1  | Requirement already satisfied: dictdiffer>=0.8.1 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (0.9.0)
+mindmeld_1  | Requirement already satisfied: setuptools>=34.0.0 in /usr/lib/python3/dist-packages (from dvc>=1.8.1->mindmeld) (39.0.1)
+mindmeld_1  | Requirement already satisfied: voluptuous>=0.11.7 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (0.12.1)
+mindmeld_1  | Requirement already satisfied: grandalf==0.6 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (0.6)
+mindmeld_1  | Requirement already satisfied: pathspec<0.9.0,>=0.6.0 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (0.8.1)
+mindmeld_1  | Requirement already satisfied: toml>=0.10.1 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (0.10.2)
+mindmeld_1  | Requirement already satisfied: pygit2>=1.5.0 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (1.6.1)
+mindmeld_1  | Requirement already satisfied: nanotime>=0.5.2 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (0.5.2)
+mindmeld_1  | Requirement already satisfied: colorama>=0.3.9 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (0.4.4)
+mindmeld_1  | Requirement already satisfied: zc.lockfile>=1.2.1 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (2.0)
+mindmeld_1  | Requirement already satisfied: gitpython>3 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (3.1.18)
+mindmeld_1  | Requirement already satisfied: pygtrie>=2.3.2 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (2.4.2)
+mindmeld_1  | Requirement already satisfied: dpath<3,>=2.0.1 in /usr/local/lib/python3.6/dist-packages (from dvc>=1.8.1->mindmeld) (2.0.4)
+mindmeld_1  | Requirement already satisfied: six in /usr/local/lib/python3.6/dist-packages (from configobj>=5.0.6->dvc>=1.8.1->mindmeld) (1.16.0)
+mindmeld_1  | Requirement already satisfied: certifi in /usr/local/lib/python3.6/dist-packages (from dulwich>=0.20.23->dvc>=1.8.1->mindmeld) (2021.5.30)
+mindmeld_1  | Requirement already satisfied: urllib3>=1.24.1 in /usr/local/lib/python3.6/dist-packages (from dulwich>=0.20.23->dvc>=1.8.1->mindmeld) (1.26.6)
+mindmeld_1  | Requirement already satisfied: Jinja2<3.0,>=2.10.1 in /usr/local/lib/python3.6/dist-packages (from Flask~=1.0->mindmeld) (2.11.3)
+mindmeld_1  | Requirement already satisfied: itsdangerous<2.0,>=0.24 in /usr/local/lib/python3.6/dist-packages (from Flask~=1.0->mindmeld) (1.1.0)
+mindmeld_1  | Requirement already satisfied: Werkzeug<2.0,>=0.15 in /usr/local/lib/python3.6/dist-packages (from Flask~=1.0->mindmeld) (1.0.1)
+mindmeld_1  | Requirement already satisfied: atpublic in /usr/local/lib/python3.6/dist-packages (from flufl.lock<4,>=3.2->dvc>=1.8.1->mindmeld) (2.3)
+mindmeld_1  | Requirement already satisfied: gitdb<5,>=4.0.1 in /usr/local/lib/python3.6/dist-packages (from gitpython>3->dvc>=1.8.1->mindmeld) (4.0.7)
+mindmeld_1  | Requirement already satisfied: smmap<5,>=3.0.1 in /usr/local/lib/python3.6/dist-packages (from gitdb<5,>=4.0.1->gitpython>3->dvc>=1.8.1->mindmeld) (4.0.0)
+mindmeld_1  | Requirement already satisfied: idna>=2.0 in /usr/lib/python3/dist-packages (from idna-ssl>=1.0->aiohttp>=3.6.2->mindmeld) (2.6)
+mindmeld_1  | Requirement already satisfied: zipp>=0.5 in /usr/local/lib/python3.6/dist-packages (from importlib-metadata>=1.4->dvc>=1.8.1->mindmeld) (3.5.0)
+mindmeld_1  | Requirement already satisfied: MarkupSafe>=0.23 in /usr/local/lib/python3.6/dist-packages (from Jinja2<3.0,>=2.10.1->Flask~=1.0->mindmeld) (2.0.1)
+mindmeld_1  | Requirement already satisfied: mypy-extensions<0.5.0,>=0.4.3 in /usr/local/lib/python3.6/dist-packages (from mypy>=0.782->mindmeld) (0.4.3)
+mindmeld_1  | Requirement already satisfied: typed-ast<1.5.0,>=1.4.0 in /usr/local/lib/python3.6/dist-packages (from mypy>=0.782->mindmeld) (1.4.3)
+mindmeld_1  | Requirement already satisfied: decorator<5,>=4.3 in /usr/local/lib/python3.6/dist-packages (from networkx>=2.5->dvc>=1.8.1->mindmeld) (4.4.2)
+mindmeld_1  | Requirement already satisfied: joblib in /usr/local/lib/python3.6/dist-packages (from nltk~=3.2->mindmeld) (1.0.1)
+mindmeld_1  | Requirement already satisfied: regex in /usr/local/lib/python3.6/dist-packages (from nltk~=3.2->mindmeld) (2021.8.28)
+mindmeld_1  | Requirement already satisfied: cffi>=1.4.0 in /usr/local/lib/python3.6/dist-packages (from pygit2>=1.5.0->dvc>=1.8.1->mindmeld) (1.14.6)
+mindmeld_1  | Requirement already satisfied: cached-property in /usr/local/lib/python3.6/dist-packages (from pygit2>=1.5.0->dvc>=1.8.1->mindmeld) (1.5.2)
+mindmeld_1  | Requirement already satisfied: pycparser in /usr/local/lib/python3.6/dist-packages (from cffi>=1.4.0->pygit2>=1.5.0->dvc>=1.8.1->mindmeld) (2.20)
+mindmeld_1  | Requirement already satisfied: python-slugify in /usr/local/lib/python3.6/dist-packages (from python-benedict>=0.21.1->dvc>=1.8.1->mindmeld) (5.0.2)
+mindmeld_1  | Requirement already satisfied: phonenumbers in /usr/local/lib/python3.6/dist-packages (from python-benedict>=0.21.1->dvc>=1.8.1->mindmeld) (8.12.31)
+mindmeld_1  | Requirement already satisfied: python-fsutil in /usr/local/lib/python3.6/dist-packages (from python-benedict>=0.21.1->dvc>=1.8.1->mindmeld) (0.5.0)
+mindmeld_1  | Requirement already satisfied: mailchecker in /usr/local/lib/python3.6/dist-packages (from python-benedict>=0.21.1->dvc>=1.8.1->mindmeld) (4.0.11)
+mindmeld_1  | Requirement already satisfied: xmltodict in /usr/local/lib/python3.6/dist-packages (from python-benedict>=0.21.1->dvc>=1.8.1->mindmeld) (0.12.0)
+mindmeld_1  | Requirement already satisfied: ftfy in /usr/local/lib/python3.6/dist-packages (from python-benedict>=0.21.1->dvc>=1.8.1->mindmeld) (6.0.3)
+mindmeld_1  | Requirement already satisfied: charset-normalizer~=2.0.0 in /usr/local/lib/python3.6/dist-packages (from requests<3.0,>=2.20.1->mindmeld) (2.0.4)
+mindmeld_1  | Requirement already satisfied: commonmark<0.10.0,>=0.9.0 in /usr/local/lib/python3.6/dist-packages (from rich>=10.0.0->dvc>=1.8.1->mindmeld) (0.9.1)
+mindmeld_1  | Requirement already satisfied: pygments<3.0.0,>=2.6.0 in /usr/local/lib/python3.6/dist-packages (from rich>=10.0.0->dvc>=1.8.1->mindmeld) (2.10.0)
+mindmeld_1  | Requirement already satisfied: ruamel.yaml.clib>=0.1.2 in /usr/local/lib/python3.6/dist-packages (from ruamel.yaml>=0.17.11->dvc>=1.8.1->mindmeld) (0.2.6)
+mindmeld_1  | Requirement already satisfied: preshed<3.1.0,>=3.0.2 in /usr/local/lib/python3.6/dist-packages (from spacy~=2.3.1->mindmeld) (3.0.5)
+mindmeld_1  | Requirement already satisfied: srsly<1.1.0,>=1.0.2 in /usr/local/lib/python3.6/dist-packages (from spacy~=2.3.1->mindmeld) (1.0.5)
+mindmeld_1  | Requirement already satisfied: plac<1.2.0,>=0.9.6 in /usr/local/lib/python3.6/dist-packages (from spacy~=2.3.1->mindmeld) (1.1.3)
+mindmeld_1  | Requirement already satisfied: wasabi<1.1.0,>=0.4.0 in /usr/local/lib/python3.6/dist-packages (from spacy~=2.3.1->mindmeld) (0.8.2)
+mindmeld_1  | Requirement already satisfied: blis<0.8.0,>=0.4.0 in /usr/local/lib/python3.6/dist-packages (from spacy~=2.3.1->mindmeld) (0.7.4)
+mindmeld_1  | Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /usr/local/lib/python3.6/dist-packages (from spacy~=2.3.1->mindmeld) (1.0.5)
+mindmeld_1  | Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /usr/local/lib/python3.6/dist-packages (from spacy~=2.3.1->mindmeld) (2.0.5)
+mindmeld_1  | Requirement already satisfied: catalogue<1.1.0,>=0.0.7 in /usr/local/lib/python3.6/dist-packages (from spacy~=2.3.1->mindmeld) (1.0.0)
+mindmeld_1  | Requirement already satisfied: thinc<7.5.0,>=7.4.1 in /usr/local/lib/python3.6/dist-packages (from spacy~=2.3.1->mindmeld) (7.4.5)
+mindmeld_1  | Requirement already satisfied: wcwidth in /usr/local/lib/python3.6/dist-packages (from ftfy->python-benedict>=0.21.1->dvc>=1.8.1->mindmeld) (0.2.5)
+mindmeld_1  | Requirement already satisfied: text-unidecode>=1.3 in /usr/local/lib/python3.6/dist-packages (from python-slugify->python-benedict>=0.21.1->dvc>=1.8.1->mindmeld) (1.3)
+mindmeld_1  | WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+mindmeld_1  | future versions of Elasticsearch will require Java 11; your Java version from [/usr/lib/jvm/java-8-openjdk-amd64/jre] does not meet this requirement
+mindmeld_1  | future versions of Elasticsearch will require Java 11; your Java version from [/usr/lib/jvm/java-8-openjdk-amd64/jre] does not meet this requirement
+mindmeld_1  | Starting numerical parsing service, PID 281
+mindmeld_1  | /usr/local/lib/python3.6/dist-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+mindmeld_1  |   from numpy.core.umath_tests import inner1d
+mindmeld_1  | Listening on http://0.0.0.0:7151
+mindmeld_1  | Numerical parser running, PID 281
+mindmeld_1  | No app configuration file found. Using default language and locale.
+mindmeld_1  | No app configuration file found.
+mindmeld_1  | No app configuration file found.
+mindmeld_1  | No app configuration file found.
+mindmeld_1  | No app configuration file found. Using default language and locale.
+mindmeld_1  | No app configuration file found.
+mindmeld_1  | No app configuration file found.
+mindmeld_1  | No app configuration file found.
+mindmeld_1  | /usr/local/lib/python3.6/dist-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+mindmeld_1  |   from numpy.core.umath_tests import inner1d
+mindmeld_1  | warning: The application package bot is already imported.
+mindmeld_1  | No app configuration file found. Using default language and locale.
+mindmeld_1  | No app configuration file found.
+mindmeld_1  | No app configuration file found. Using default language and locale.
+mindmeld_1  | No app configuration file found.
+mindmeld_1  | No app configuration file found. Not configuring parser.
+mindmeld_1  | No app configuration file found. Using default language and locale.
+mindmeld_1  | No app configuration file found.
+mindmeld_1  | No app configuration file found. Using default language and locale.
+mindmeld_1  | No app configuration file found.
+mindmeld_1  | No app configuration file found. Not configuring parser.
+mindmeld_1  | No app configuration file found. Using default question_answering model configuration
+mindmeld_1  | No app configuration file found.
+mindmeld_1  | Loading domain classifier
+mindmeld_1  | Loading entity recognizer: domain='chat', intent='greeting'
+mindmeld_1  | Loading entity recognizer: domain='assist', intent='is_live'
+mindmeld_1  | No app configuration file found. Using default language and locale.
+mindmeld_1  | No app configuration file found.
+mindmeld_1  | No app configuration file found. Using default entity_resolution model configuration
+mindmeld_1  | Loading role classifier: domain='assist', intent='is_live', entity_type='channel'
+mindmeld_1  | error: Unable to connect to Elasticsearch: <urllib3.connection.HTTPConnection object at 0x7fee76775780>: Failed to establish a new connection: [Errno 111] Connection refused details: <urllib3.connection.HTTPConnection object at 0x7fee76775780>: Failed to establish a new connection: [Errno 111] Connection refused
+mindmeld_1  | warning: Cannot connect to ES, so Entity Resolver is not loaded.
+mindmeld_1  |  * Serving Flask app "mindmeld" (lazy loading)
+mindmeld_1  |  * Environment: production
+mindmeld_1  |    WARNING: This is a development server. Do not use it in a production deployment.
+mindmeld_1  |    Use a production WSGI server instead.
+mindmeld_1  |  * Debug mode: on
+mindmeld_1  |  * Running on http://0.0.0.0:7150/ (Press CTRL+C to quit)
